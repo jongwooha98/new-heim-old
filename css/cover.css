@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
 body, html {
     height: 100%
@@ -10,6 +12,7 @@ body, html {
     height: 100%;
     /* Center the background image */
     background-position: center;
+    background-repeat: no-repeat;
     /* Scale and zoom in the image */
     background-size: cover;
     /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
@@ -17,7 +20,7 @@ body, html {
     /* Add a white text color to all elements inside the .bgimg container */
     color: white;
     /* Add a font */
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     /* Set the font-size to 25 pixels */
     font-size: 25px;
   }
@@ -35,7 +38,10 @@ body, html {
     right: 16px;
   }
   /* Position text in the middle */
-
+  .link {
+    color:inherit;
+    text-decoration: none;
+  }
   .middle {
     position: absolute;
     top: 50%;
