@@ -28,9 +28,13 @@ body, html {
   /* Position text in the top-left corner */
   .topleft {
     position: absolute;
-    top: 0;
+    top: 16px;
     left: 16px;
   }
+    .topleft .logo {
+      height: 150px;
+      width: 150px;
+    }
   /* Position text in the top-left corner */
   .topright {
     position: absolute;
